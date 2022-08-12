@@ -1,0 +1,63 @@
+body {
+    background-color: orange;
+}
+
+.taskContainer {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.groceries {
+    margin: auto;
+    width: 600px;
+    min-height: 100vh;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 24px 0px;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2rem;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.listItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    width: 36vh;
+    margin: auto;
+}
+
+.toggleBtn {
+    background: white;
+    border: 1px solid white;
+    padding: 0;
+}
+
+.addNewItem {
+    width: 41vh;
+    height: 3vh;
+    border: 1px solid white;
+    padding-left: 50px;
+    font-family: "Bebas Neue", cursive;
+}
+
+.addItemBtn, .deleteItemBtn {
+    background: white;
+    border: 1px solid white;
+    padding: 6px;
+    color: black;
+}
+
